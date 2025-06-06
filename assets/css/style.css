@@ -1,0 +1,168 @@
+*{
+    margin: auto;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+
+header{
+    height: 130px;
+    background-color: #C86D35;
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    margin-top: 0px;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 15px;
+}
+
+nav ul li{
+    color: white;
+}
+
+.imgtop{
+    font-size: smaller;
+    height: 200px;
+    text-align: center;
+    color: white;
+    background-image: url(../img/hero.jpg);
+    background-size: 100%;  
+    background-repeat: no-repeat;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.imgtop p{
+    margin-bottom: 30px;
+    font-size: small;
+}
+
+.imgtop h1{
+    margin-bottom: 15px;
+}
+
+ 
+main h2, p{
+    text-align: center;
+}
+
+main h2{
+    margin-bottom: 25px;
+}
+
+.ptop{
+    margin-bottom: 25px;
+}
+
+.titre1{
+    padding-top: 35px;
+}
+
+img{
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+section div h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+
+p{
+    font-size: 15px;
+}
+
+section p{
+    margin-bottom: 25px;
+}
+
+.formu{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.formu h1, p{
+    margin-bottom: 20px;
+
+}
+
+.formu .fp{
+    margin-bottom: 35px;
+}
+
+input{
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input1{
+    height: 70px;
+}
+.input2{
+    text-align: center;
+    background-color: #FF6347;
+    width: 85%;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    margin-top: 0px;
+}
+
+footer{
+    height: 60px;
+    background-color: #C86D35;
+    margin-top: 50px;
+}
+
+footer p{
+    color: white;
+    padding-top: 10px;
+}
+
+label{
+    display: block;
+    text-align: left;
+    width: 85%;
+    margin-bottom: 0px;
+}
+
+
+
+.myBtn1{
+    background-color: #FF6347;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
+@media screen and (min-width: 992px){
+    .imgcroissant, .imgbaguette, .imgpainchocolat, .imgeclairs, .imgmacarons, .imgtarte{
+        float: left;
+        width: 33%;
+    }
+    img{
+        width: 50%;
+    }
+}
